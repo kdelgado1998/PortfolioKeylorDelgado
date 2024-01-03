@@ -126,7 +126,7 @@ a {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: end;
+  justify-content: flex-end;
   color: white;
   background-repeat: no-repeat;
   background-size: cover;
@@ -372,6 +372,7 @@ footer .nav a,
 
 .contenedor-sobreMi {
   max-width: 120rem;
+  max-height: 60rem;
   margin: 0 auto;
   padding: 0 2.5rem;
   display: flex;
